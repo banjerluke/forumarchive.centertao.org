@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Topher - CenterTao Forum</title>
+  <link rel="stylesheet" type="text/css" href="/applications/dashboard/design/style.css?v=2.3" media="all" />
+  <link rel="stylesheet" type="text/css" href="/resources/design/vanillicon.css?v=2.3" media="all" />
+  <link rel="canonical" href="/profile/comments/Topher" />
+  <meta name="robots" content="noindex,noarchive" />
+  <meta property="og:site_name" content="CenterTao Forum" />
+  <meta property="og:title" itemprop="name" content="Topher" />
+  <meta property="og:url" content="/profile/comments/Topher" />
+  <script type="text/javascript">gdn=window.gdn||{};gdn.meta={
+    "DefaultAbout": "Write something about yourself...",
+    "AnalyticsTask": "tick",
+    "TagHint": "Start to type...",
+    "emoji": {
+        "assetPath": "\/resources\/emoji",
+        "format": "<img class=\"emoji\" src=\"%1$s\" title=\"%2$s\" alt=\"%2$s\" height=\"20\" \/>",
+        "emoji": {
+            "smile": "smile.png",
+            "smiley": "smiley.png",
+            "wink": "wink.png",
+            "blush": "blush.png",
+            "neutral": "neutral.png",
+            "relaxed": "relaxed.png",
+            "grin": "grin.png",
+            "joy": "joy.png",
+            "sweat_smile": "sweat_smile.png",
+            "lol": "lol.png",
+            "innocent": "innocent.png",
+            "naughty": "naughty.png",
+            "yum": "yum.png",
+            "relieved": "relieved.png",
+            "love": "love.png",
+            "sunglasses": "sunglasses.png",
+            "smirk": "smirk.png",
+            "expressionless": "expressionless.png",
+            "unamused": "unamused.png",
+            "sweat": "sweat.png",
+            "pensive": "pensive.png",
+            "confused": "confused.png",
+            "confounded": "confounded.png",
+            "kissing": "kissing.png",
+            "kissing_heart": "kissing_heart.png",
+            "kissing_smiling_eyes": "kissing_smiling_eyes.png",
+            "kissing_closed_eyes": "kissing_closed_eyes.png",
+            "tongue": "tongue.png",
+            "disappointed": "disappointed.png",
+            "worried": "worried.png",
+            "angry": "angry.png",
+            "rage": "rage.png",
+            "cry": "cry.png",
+            "persevere": "persevere.png",
+            "triumph": "triumph.png",
+            "frowning": "frowning.png",
+            "anguished": "anguished.png",
+            "fearful": "fearful.png",
+            "weary": "weary.png",
+            "sleepy": "sleepy.png",
+            "tired_face": "tired_face.png",
+            "grimace": "grimace.png",
+            "bawling": "bawling.png",
+            "open_mouth": "open_mouth.png",
+            "hushed": "hushed.png",
+            "cold_sweat": "cold_sweat.png",
+            "scream": "scream.png",
+            "astonished": "astonished.png",
+            "flushed": "flushed.png",
+            "sleeping": "sleeping.png",
+            "dizzy": "dizzy.png",
+            "no_mouth": "no_mouth.png",
+            "mask": "mask.png",
+            "star": "star.png",
+            "cookie": "cookie.png",
+            "warning": "warning.png",
+            "mrgreen": "mrgreen.png",
+            "heart": "heart.png",
+            "heartbreak": "heartbreak.png",
+            "kiss": "kiss.png",
+            "+1": "+1.png",
+            "-1": "-1.png",
+            "grey_question": "grey_question.png",
+            "trollface": "trollface.png",
+            "error": "grey_question.png"
+        }
+    },
+    "TransportError": "A fatal error occurred while processing the request.<br \/>The server returned the following response: %s",
+    "TransientKey": null,
+    "WebRoot": "https:\/\/forum.centertao.org\/",
+    "UrlFormat": "\/{Path}",
+    "Path": "profile\/comments\/Topher",
+    "Args": "page=p4",
+    "ResolvedPath": "dashboard\/profile\/comments",
+    "ResolvedArgs": {
+        "UserReference": "Topher",
+        "Username": "",
+        "Page": "p4",
+        "UserID": ""
+    },
+    "SignedIn": 0,
+    "ConfirmHeading": "Confirm",
+    "ConfirmText": "Are you sure you want to do that?",
+    "Okay": "Okay",
+    "Cancel": "Cancel",
+    "Search": "Search"
+};</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.form.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.popup.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.gardenhandleajaxform.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.autosize.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/global.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.jcrop.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/dashboard/js/profile.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.gardenmorepager.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/dashboard/js/activity.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/vanilla/js/discussions.js?v=2.3" type="text/javascript"></script>
+</head>
+<body id="dashboard_profile_comments" class="Dashboard Profile comments  Profile Section-Profile">
+<div id="Frame">
+    <div class="Head" id="Head">
+        <div class="Row">
+            <strong class="SiteTitle"><a href="/">CenterTao Forum</a></strong>
+
+            <div class="SiteSearch"><form method="get" action="/search">
+<div>
+<input type="text" id="Form_Search" name="Search" value="" placeholder="Search" accesskey="/" class="InputBox" /><input type="submit" id="Form_Go" name="" value="Go" class="Button" />
+</div>
+</form></div>
+            <ul class="SiteMenu">
+                <!--  -->
+                <li><a href="/discussions" class="">Discussions</a></li>
+                <li><a href="/activity" class="">Activity</a></li>
+                <!--  -->
+                
+                <!-- 
+               <li><a href="/entry/signin" rel="nofollow" class="SignInPopup">Sign In</a></li>  -->
+            </ul>
+        </div>
+    </div>
+    <div id="Body">
+        <div class="Row">
+            <div class="BreadcrumbsWrapper"><span class="Breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="CrumbLabel CrumbLabel HomeCrumb"><a href="/" itemprop="url"><span itemprop="title">Home</span></a></span> <span itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="Crumb">›</span> <span class="CrumbLabel "><a href="/profile/Topher" itemprop="url"><span itemprop="title">Topher</span></a></span> <span itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="Crumb">›</span> <span class="CrumbLabel  Last"><a href="/profile/comments/Topher" itemprop="url"><span itemprop="title">Comments</span></a></span> </span></span></span></div>
+            <div class="Column PanelColumn" id="Panel">
+                <div class="MeBox MeBox-SignIn"><div class="SignInLinks"><a href="/entry/signin?Target=profile%2Fcomments%2FTopher" class=" SignInPopup" rel="nofollow">Sign In</a> <span class="Bullet">&middot;</span> <a href="/entry/register?Target=profile%2Fcomments%2FTopher" class="ApplyButton" rel="nofollow">Register</a> </div> <div class="SignInIcons"></div></div>
+                    <div class="Photo PhotoWrap PhotoWrapLarge ">
+        <img src="/applications/dashboard/design/images/defaulticon.png" class="ProfilePhotoLarge" />    </div>
+<div class="BoxFilter BoxProfileFilter">
+    <ul class="FilterMenu">
+        <li class="Activity"><a href="/profile/activity/Topher"><span class="Sprite SpActivity"></span> Activity</a></li>
+<li class="Discussions"><a href="/profile/discussions/172/Topher"><span class="Sprite SpDiscussions"></span> Discussions<span class="Aside"><span class="Count">5</span></span></a></li>
+<li class="Active Comments"><a href="/profile/comments/172/Topher"><span class="Sprite SpComments"></span> Comments<span class="Aside"><span class="Count">119</span></span></a></li>
+    </ul>
+</div>
+<div class="Box GuestBox">
+    <h4>Howdy, Stranger!</h4>
+
+    <p>It looks like you're new here. If you want to get involved, click one of these buttons!</p>
+
+    <p></p>
+
+    <div class="P"><a href="/entry/signin?Target=profile%2Fcomments%2FTopher" class="Button Primary SignInPopup" rel="nofollow">Sign In</a> <a href="/entry/register?Target=profile%2Fcomments%2FTopher" class="Button ApplyButton" rel="nofollow">Register</a></div>    </div>
+
+            </div>
+            <div class="Column ContentColumn" id="Content"><div class="ProfileOptions">
+     </div>
+<div class="Profile">
+    <div class="User" itemscope itemtype="http://schema.org/Person">
+    <h1 class="H">Topher<span class="Gloss"></span></h1>
+        <div class="About P">
+        <h2 class="H">About</h2>
+        <dl class="About">
+                        <dt class="Name">Username</dt>
+            <dd class="Name" itemprop="name">Topher</dd>
+
+            
+                        <dt class="Joined">Joined</dt>
+            <dd class="Joined"><time title="May  9, 2005  2:11PM" datetime="2005-05-09T14:11:44+00:00">May 2005</time></dd>
+            <dt class="Visits">Visits</dt>
+            <dd class="Visits">0</dd>
+            <dt class="LastActive">Last Active</dt>
+            <dd class="LastActive"><time title="February  1, 2013  3:06AM" datetime="2013-02-01T03:06:59+00:00">February 2013</time></dd>
+            <dt class="Roles">Roles</dt>
+            <dd class="Roles">No Roles</dd>
+                    </dl>
+    </div>
+</div>
+<div class="BoxFilter BoxProfileFilter">
+    <ul class="FilterMenu">
+        <li class="Activity"><a href="/profile/activity/Topher"><span class="Sprite SpActivity"></span> Activity</a></li>
+<li class="Discussions"><a href="/profile/discussions/172/Topher"><span class="Sprite SpDiscussions"></span> Discussions<span class="Aside"><span class="Count">5</span></span></a></li>
+<li class="Active Comments"><a href="/profile/comments/172/Topher"><span class="Sprite SpComments"></span> Comments<span class="Aside"><span class="Count">119</span></span></a></li>
+    </ul>
+</div>
+<div class="DataListWrap"><h2 class="H">Comments</h2><ul class="DataList SearchResults">    <li id="Comment_2717" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Perhaps none of us knows for sure, either way, whether there is an entity who is inherently "god". At least, I don't know anyone that knows for sure.
+
+
+
+Faith may produce results. We may never know whether those results were dependant, independant, …</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2717/#Comment_2717">Is There, or Isn't There, a God?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2717/#Comment_2717">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2712" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]In fact, this natural dynamic is beyond our ability to [chref=48]meddle[/chref] in, e.g., one never chooses to brag; rather, one can't help but brag when one feels 'inferior'.
+
+
+
+I think I am beginning to get a sense of the fre…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2712/#Comment_2712">Chapter of the Week: #24 [Archive]</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2712/#Comment_2712">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2703" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]A person with the same genetic makeup as Tookie raised in a hunter-gatherer environment would turn out far different. Obviously, to me anyway, it is not Tookie's 'fault', but the circumstances of civilization which, along with …</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2703/#Comment_2703">Tookie, Choice and Self Understanding</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2703/#Comment_2703">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2702" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]It is because he does not contend that no one in the empire is in a position to contend with him.
+
+
+
+I find myself looking at how I contend in life. Rarely is it physical, although there were times when I felt I had to defend m…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2702/#Comment_2702">Chapter of the Week: #22 [Archive]</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2702/#Comment_2702">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2701" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Luke Abbott:[/cite]Chapter 23
+
+To use words but rarely
+
+Is to be natural.
+
+
+
+So, who is going to respond after that?  :twisted:</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2701/#Comment_2701">Chapter of the Week: #23 [Archive</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2701/#Comment_2701">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2699" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]But this is the 'fly in the ointment'. Pure white bread feels very "good" to the rat's taste buds as it's eating, but the long term consequences feel "bad" (malnutrition and death). Our  feelings about things in wild natural co…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2699/#Comment_2699">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2699/#Comment_2699">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2696" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]"Wrong"? Let's talk about fish for a moment. If a fish believes that the juicy worm at the end of your hook is what it appears to be (i.e., a safe treat), it is "doomed"... "language" or no language.
+
+
+
+Okay. I can see your poi…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2696/#Comment_2696">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2696/#Comment_2696">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2694" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]As long as we believe what we think,
+
+....We are doomed,
+
+........Our misperceptions to repeat.
+
+
+
+Isn't that like saying the cat is wrong for being a cat? Why not just have fun with the experience of it? Sometimes we might bel…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2694/#Comment_2694">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2694/#Comment_2694">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2693" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]So what stirs our emotions enough to lead to overt action, or inaction?
+
+
+
+I think it is the story we tell ourselves; like read "Old Yeller" and bawl. The dog didn't really die. It is just a story. :twisted:
+
+
+
+We can tell ours…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2693/#Comment_2693">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2693/#Comment_2693">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2692" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]Emotion is the bedrock of awareness and action. The idea that the machinations of the mind can direct that is like saying the forest resting on a granite mountain is going to influence the granite beneath.
+
+
+
+I get that but I a…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2692/#Comment_2692">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2692/#Comment_2692">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2691" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]'two cents'
+
+
+
+Lately, I couldn't afford it. Now I can. </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2691/#Comment_2691">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2691/#Comment_2691">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2690" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]Case in point: A cat living in a warm comfortable house would find it just as hard to switch to a cardboard box. Of course, unable to think and dwell on the change in circumstances, the cat would 'soon' adapt (and not dwell on …</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2690/#Comment_2690">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2690/#Comment_2690">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2688" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]
+
+
+[cite] The New York Times, Don't Think Twice, It's All Right, By Timothy D. Wilson:[/cite]What can we do to improve ourselves and feel happier? Numerous social  psychological studies have confirmed Aristotle's observation th…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2688/#Comment_2688">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2688/#Comment_2688">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2687" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]
+
+So, what really motivates the myriad creatures - all living things including us - into a particular action or inaction?
+
+
+
+Certainly some, if not all, of it is physiological. There is an accompanying "drive for" or "discomfor…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2687/#Comment_2687">Don't Think, It's All Right</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2687/#Comment_2687">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2684" class="Item">
+                <div class="ItemContent">
+            <div class="Message">This has got to be the longest running thread I have ever seen.
+
+
+
+We have a house dog named "Life, liberty, and the pursuit of happiness." I suggested it as a joke. We call her Libby for short. She is an English Mastiff. She is as big as her name.
+…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2684/#Comment_2684">I got to pet a dog today</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2684/#Comment_2684">January 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2505" class="Item">
+                <div class="ItemContent">
+            <div class="Message">The virtue of nothing is sometimes used to argue for living a life of nothing; like that is ideal.
+
+
+
+However, if something and nothing produce each other, it follows that once you create yourself as nothing, something will be produced. What that so…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2505/#Comment_2505">Chapter of the Week: #11 [Archive]</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2505/#Comment_2505">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2504" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]We fail to realize - feel actually - the living hell that the 'evil' person experiences, and so can't appreciate the fact that his actions simply reflect his inner sorrow, pain, isolation, disconnection, desperation, insanity, …</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2504/#Comment_2504">Crime and Punishment</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2504/#Comment_2504">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2477" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I can buy that as a possible. I can certainly see that it is at play in my life. Whether that is all there is, I don't know.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2477/#Comment_2477">What is the meaning of life?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2477/#Comment_2477">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2474" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]Yet, our egos claim we are in control
+
+I am still not getting the control part. I don't see it so much that we are in control but that things affect us and we come to forks in the road. Not like we can choose anything at anytim…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2474/#Comment_2474">What is the meaning of life?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2474/#Comment_2474">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2471" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Lynn Cornish:[/cite]meditation helps to make the emptiness feel more like a fullness than a void
+
+Thank you, Lynn. It seems many religions and philosophies promote some form of meditation as an access to our inner nature.
+
+
+
+Thank you, too…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2471/#Comment_2471">What is the meaning of life?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2471/#Comment_2471">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2463" class="Item">
+                <div class="ItemContent">
+            <div class="Message">We might be describing the elephant with only a view of its foot. To say there is no meaning to life is to declare something we cannot oversee. We can't affect it. We can't control it. Whether it does or it doesn't is beyond us. If it doesn't, we ca…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2463/#Comment_2463">What is the meaning of life?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2463/#Comment_2463">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2430" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Something just occured to me.
+
+
+
+Some might use Free-will to convey that I have the freedom to will myself. I can see how that is not so. I can't maintain a straight path long enough to will myself into much, if anything.
+
+
+
+I use Free-will to conve…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2430/#Comment_2430">Who chooses to feel compassion?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2430/#Comment_2430">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2429" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+Rather than fill it to the brim by keeping it upright
+
+
+
+I think of a container. It is better to keep it upright than to fill it to the brim because even if you fill it to the brim, unless you keep it upright, it will spill out. The attempt to fi…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2429/#Comment_2429">Chapter of the Week: #09 [Archive]</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2429/#Comment_2429">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2423" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]
+
+1) One's perception of "responsible" and "impact" is relative to what one feels important. Importance, is an emotion powered by the void - 'fear'. So, all choice is driven by 'fear', by emptiness, by void.
+
+2) Ah, do I detect…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2423/#Comment_2423">Ringing Fear's Bell</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2423/#Comment_2423">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2422" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]1) What "trouble?"
+
+2) "Diverse ways?"
+
+
+
+1) By "Trouble" I meant that I create problems that don't exist otherwise and I do it all with my thoughts and opinions. Outside of the struggle for basic food and shelter, that which I…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2422/#Comment_2422">Who chooses to feel compassion?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2422/#Comment_2422">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2414" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]The Free Will / Self / Compassion Link
+
+The notion of a free will, either explicit or implied, is a manifestation of our sense of self. It is the 'self' which chooses to do or not do this or that. It is the 'self' which chooses…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2414/#Comment_2414">Who chooses to feel compassion?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2414/#Comment_2414">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2413" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite]Simply put, hunger comes from feeling empty. The more empty, the hungrier. (Note: Hunger plays itself out in myriad ways other than eating.)
+
+
+
+And yet, for an overweight guy like me, I can see how it sometimes does play itself…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2413/#Comment_2413">Ringing Fear's Bell</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2413/#Comment_2413">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2411" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I have been distinguishing these in my life and, in my experience, it is never a finished work. I suppose it is possible that there are those who are more susecptible to living in harmony with such principles, either by character or by nature, but t…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2411/#Comment_2411">Eliminating the Causes of Suffering (2nd Noble truth)</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/2411/#Comment_2411">October 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1738" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I wear shoes mostly. I remove them at home because they are no longer "necessary" (as I perceive it) and it is more comfortable for me when relaxing.
+
+
+
+Dry-cracked heels, cold, driving, stores, hazards (broken glass, etc), and hot pavement are a fe…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1738/#Comment_1738">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Topher">Topher</a></span>
+                <span class="MItem"><a href="/discussion/comment/1738/#Comment_1738">May 2005</a></span>
+            </div>
+        </div>
+    </li>
+</ul></div></div>
+</div>
+        </div>
+    </div>
+    <div id="Foot">
+        <div class="Row">
+            <a href="http://vanillaforums.org" class="PoweredByVanilla" title="Community Software by Vanilla Forums">Forum Software
+                Powered by Vanilla</a>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

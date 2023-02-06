@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TaoCow - CenterTao Forum</title>
+  <link rel="stylesheet" type="text/css" href="/applications/dashboard/design/style.css?v=2.3" media="all" />
+  <link rel="stylesheet" type="text/css" href="/resources/design/vanillicon.css?v=2.3" media="all" />
+  <link rel="canonical" href="/profile/comments/TaoCow" />
+  <meta name="robots" content="noindex,noarchive" />
+  <meta property="og:site_name" content="CenterTao Forum" />
+  <meta property="og:title" itemprop="name" content="TaoCow" />
+  <meta property="og:url" content="/profile/comments/TaoCow" />
+  <script type="text/javascript">gdn=window.gdn||{};gdn.meta={
+    "DefaultAbout": "Write something about yourself...",
+    "AnalyticsTask": "tick",
+    "TagHint": "Start to type...",
+    "emoji": {
+        "assetPath": "\/resources\/emoji",
+        "format": "<img class=\"emoji\" src=\"%1$s\" title=\"%2$s\" alt=\"%2$s\" height=\"20\" \/>",
+        "emoji": {
+            "smile": "smile.png",
+            "smiley": "smiley.png",
+            "wink": "wink.png",
+            "blush": "blush.png",
+            "neutral": "neutral.png",
+            "relaxed": "relaxed.png",
+            "grin": "grin.png",
+            "joy": "joy.png",
+            "sweat_smile": "sweat_smile.png",
+            "lol": "lol.png",
+            "innocent": "innocent.png",
+            "naughty": "naughty.png",
+            "yum": "yum.png",
+            "relieved": "relieved.png",
+            "love": "love.png",
+            "sunglasses": "sunglasses.png",
+            "smirk": "smirk.png",
+            "expressionless": "expressionless.png",
+            "unamused": "unamused.png",
+            "sweat": "sweat.png",
+            "pensive": "pensive.png",
+            "confused": "confused.png",
+            "confounded": "confounded.png",
+            "kissing": "kissing.png",
+            "kissing_heart": "kissing_heart.png",
+            "kissing_smiling_eyes": "kissing_smiling_eyes.png",
+            "kissing_closed_eyes": "kissing_closed_eyes.png",
+            "tongue": "tongue.png",
+            "disappointed": "disappointed.png",
+            "worried": "worried.png",
+            "angry": "angry.png",
+            "rage": "rage.png",
+            "cry": "cry.png",
+            "persevere": "persevere.png",
+            "triumph": "triumph.png",
+            "frowning": "frowning.png",
+            "anguished": "anguished.png",
+            "fearful": "fearful.png",
+            "weary": "weary.png",
+            "sleepy": "sleepy.png",
+            "tired_face": "tired_face.png",
+            "grimace": "grimace.png",
+            "bawling": "bawling.png",
+            "open_mouth": "open_mouth.png",
+            "hushed": "hushed.png",
+            "cold_sweat": "cold_sweat.png",
+            "scream": "scream.png",
+            "astonished": "astonished.png",
+            "flushed": "flushed.png",
+            "sleeping": "sleeping.png",
+            "dizzy": "dizzy.png",
+            "no_mouth": "no_mouth.png",
+            "mask": "mask.png",
+            "star": "star.png",
+            "cookie": "cookie.png",
+            "warning": "warning.png",
+            "mrgreen": "mrgreen.png",
+            "heart": "heart.png",
+            "heartbreak": "heartbreak.png",
+            "kiss": "kiss.png",
+            "+1": "+1.png",
+            "-1": "-1.png",
+            "grey_question": "grey_question.png",
+            "trollface": "trollface.png",
+            "error": "grey_question.png"
+        }
+    },
+    "TransportError": "A fatal error occurred while processing the request.<br \/>The server returned the following response: %s",
+    "TransientKey": null,
+    "WebRoot": "https:\/\/forum.centertao.org\/",
+    "UrlFormat": "\/{Path}",
+    "Path": "profile\/comments\/TaoCow",
+    "Args": "",
+    "ResolvedPath": "dashboard\/profile\/comments",
+    "ResolvedArgs": {
+        "UserReference": "TaoCow",
+        "Username": "",
+        "Page": "",
+        "UserID": ""
+    },
+    "SignedIn": 0,
+    "ConfirmHeading": "Confirm",
+    "ConfirmText": "Are you sure you want to do that?",
+    "Okay": "Okay",
+    "Cancel": "Cancel",
+    "Search": "Search"
+};</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.form.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.popup.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.gardenhandleajaxform.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.autosize.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/global.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.jcrop.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/dashboard/js/profile.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.gardenmorepager.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/dashboard/js/activity.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/vanilla/js/discussions.js?v=2.3" type="text/javascript"></script>
+</head>
+<body id="dashboard_profile_comments" class="Dashboard Profile comments  Profile Section-Profile">
+<div id="Frame">
+    <div class="Head" id="Head">
+        <div class="Row">
+            <strong class="SiteTitle"><a href="/">CenterTao Forum</a></strong>
+
+            <div class="SiteSearch"><form method="get" action="/search">
+<div>
+<input type="text" id="Form_Search" name="Search" value="" placeholder="Search" accesskey="/" class="InputBox" /><input type="submit" id="Form_Go" name="" value="Go" class="Button" />
+</div>
+</form></div>
+            <ul class="SiteMenu">
+                <!--  -->
+                <li><a href="/discussions" class="">Discussions</a></li>
+                <li><a href="/activity" class="">Activity</a></li>
+                <!--  -->
+                
+                <!-- 
+               <li><a href="/entry/signin" rel="nofollow" class="SignInPopup">Sign In</a></li>  -->
+            </ul>
+        </div>
+    </div>
+    <div id="Body">
+        <div class="Row">
+            <div class="BreadcrumbsWrapper"><span class="Breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="CrumbLabel CrumbLabel HomeCrumb"><a href="/" itemprop="url"><span itemprop="title">Home</span></a></span> <span itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="Crumb">›</span> <span class="CrumbLabel "><a href="/profile/TaoCow" itemprop="url"><span itemprop="title">TaoCow</span></a></span> <span itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="Crumb">›</span> <span class="CrumbLabel  Last"><a href="/profile/comments/TaoCow" itemprop="url"><span itemprop="title">Comments</span></a></span> </span></span></span></div>
+            <div class="Column PanelColumn" id="Panel">
+                <div class="MeBox MeBox-SignIn"><div class="SignInLinks"><a href="/entry/signin?Target=profile%2Fcomments%2FTaoCow" class=" SignInPopup" rel="nofollow">Sign In</a> <span class="Bullet">&middot;</span> <a href="/entry/register?Target=profile%2Fcomments%2FTaoCow" class="ApplyButton" rel="nofollow">Register</a> </div> <div class="SignInIcons"></div></div>
+                    <div class="Photo PhotoWrap PhotoWrapLarge ">
+        <img src="/applications/dashboard/design/images/defaulticon.png" class="ProfilePhotoLarge" />    </div>
+<div class="BoxFilter BoxProfileFilter">
+    <ul class="FilterMenu">
+        <li class="Activity"><a href="/profile/activity/TaoCow"><span class="Sprite SpActivity"></span> Activity</a></li>
+<li class="Discussions"><a href="/profile/discussions/23/TaoCow"><span class="Sprite SpDiscussions"></span> Discussions<span class="Aside"></span></a></li>
+<li class="Active Comments"><a href="/profile/comments/23/TaoCow"><span class="Sprite SpComments"></span> Comments<span class="Aside"><span class="Count">27</span></span></a></li>
+    </ul>
+</div>
+<div class="Box GuestBox">
+    <h4>Howdy, Stranger!</h4>
+
+    <p>It looks like you're new here. If you want to get involved, click one of these buttons!</p>
+
+    <p></p>
+
+    <div class="P"><a href="/entry/signin?Target=profile%2Fcomments%2FTaoCow" class="Button Primary SignInPopup" rel="nofollow">Sign In</a> <a href="/entry/register?Target=profile%2Fcomments%2FTaoCow" class="Button ApplyButton" rel="nofollow">Register</a></div>    </div>
+
+            </div>
+            <div class="Column ContentColumn" id="Content"><div class="ProfileOptions">
+     </div>
+<div class="Profile">
+    <div class="User" itemscope itemtype="http://schema.org/Person">
+    <h1 class="H">TaoCow<span class="Gloss"></span></h1>
+        <div class="About P">
+        <h2 class="H">About</h2>
+        <dl class="About">
+                        <dt class="Name">Username</dt>
+            <dd class="Name" itemprop="name">TaoCow</dd>
+
+            
+                        <dt class="Joined">Joined</dt>
+            <dd class="Joined"><time title="August  3, 2004 10:18AM" datetime="2004-08-03T10:18:14+00:00">August 2004</time></dd>
+            <dt class="Visits">Visits</dt>
+            <dd class="Visits">0</dd>
+            <dt class="LastActive">Last Active</dt>
+            <dd class="LastActive"><time title="September 18, 2008  8:55AM" datetime="2008-09-18T08:55:50+00:00">September 2008</time></dd>
+            <dt class="Roles">Roles</dt>
+            <dd class="Roles">No Roles</dd>
+                    </dl>
+    </div>
+</div>
+<div class="BoxFilter BoxProfileFilter">
+    <ul class="FilterMenu">
+        <li class="Activity"><a href="/profile/activity/TaoCow"><span class="Sprite SpActivity"></span> Activity</a></li>
+<li class="Discussions"><a href="/profile/discussions/23/TaoCow"><span class="Sprite SpDiscussions"></span> Discussions<span class="Aside"></span></a></li>
+<li class="Active Comments"><a href="/profile/comments/23/TaoCow"><span class="Sprite SpComments"></span> Comments<span class="Aside"><span class="Count">27</span></span></a></li>
+    </ul>
+</div>
+<div class="DataListWrap"><h2 class="H">Comments</h2><ul class="DataList SearchResults">    <li id="Comment_3926" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Cricket,
+
+
+
+Welcome Cricket! I don't write often but I read most postings. It sure is nice to have you here. I appreciate what you write. Thanks!
+
+
+
+Leslie</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/3926/#Comment_3926">The Core of Spirituality</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/3926/#Comment_3926">February 2008</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_3310" class="Item">
+                <div class="ItemContent">
+            <div class="Message">O.K That's it! I'm going to clean up my desk today Lynn. You've inspired me. Not to joke, but you are right on. What you wrote is beautiful. "It was like a day of interruptions." I will ponder that. When we get in touch with that, that there is no w…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/3310/#Comment_3310">Now, What Should I Do?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/3310/#Comment_3310">December 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_3235" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi UncleBob!
+
+
+
+Glad to hear from you. I hope things settle down over there!
+
+
+
+Thanks so much for all your kind words to Kyle on his website. (I wont advertise our son's website- Kyle's Web Pitstop)
+
+
+
+Carl feels there are more posters in the coole…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/3235/#Comment_3235">meeza back .. how are y'all doing ?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/3235/#Comment_3235">October 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_3184" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi SleepyDave,
+
+
+
+I don't think it's an intellectual thing. i.e. even if you believe this or that doesn't mean you couldn't be saddened.  I think it just happens naturally. You ask why do we value one life over another. As I said before, I see our d…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/3184/#Comment_3184">Immortality</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/3184/#Comment_3184">October 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_3164" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Sleepydave.
+
+
+
+I think it's so nice you are posing this question. I agree with Lynn that just allowing your freinds to go though the mourning they need to is the best way to "help". I have had many people die in my life. Everyone has been a diffe…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/3164/#Comment_3164">Immortality</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/3164/#Comment_3164">October 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_3040" class="Item">
+                <div class="ItemContent">
+            <div class="Message">If you're here because of "Trading Spouses", here's an article you may find interesting. Frankenbiting  and other realites of "reality" TV are described.  It felt good to see because people working on these shows came out from under the cloak to tel…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/3040/#Comment_3040">Setting the Abbott Family's Reality Record Straight</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/3040/#Comment_3040">July 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2886" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Buddy,
+
+
+
+I hope you hang in there. Plus if the boy is the most important thing to you you wont not do anything rash. My father commit suicide and it was a horrible experience that has hurt me for years. I am older now (52) and finally came  to t…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2886/#Comment_2886">shots to the body</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2886/#Comment_2886">April 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2874" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Tao Nut,
+
+
+
+I see you didn't read mine out loud. Tai Mai Shu...Get it? Please don't hurt yourself rolling on the floor in laughter.  </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2874/#Comment_2874">Tai Chi, Ki Gong, Yoga, Kung Fu</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2874/#Comment_2874">March 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2868" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I never trip up when  I practice Tai Mai Shu.  </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2868/#Comment_2868">Tai Chi, Ki Gong, Yoga, Kung Fu</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2868/#Comment_2868">March 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2853" class="Item">
+                <div class="ItemContent">
+            <div class="Message">That's a lovely post Lynn.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2853/#Comment_2853">well, im drinking again (long long post-sorry)</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2853/#Comment_2853">March 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2844" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Silly me. I thought he was going to end up with same mountains just relocated.   Good story.
+
+
+
+I'm taking my shovel to Fun Mountain. Care to join me?</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2844/#Comment_2844">Thoughts from the Dark Side</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2844/#Comment_2844">March 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2804" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Buddy,
+
+
+
+That's very sad to hear. I'm sorry. I hope that soon some sanity will prevail and that he'll be back where he belongs. Keep strong.
+
+Best wishes,
+
+Leslie</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2804/#Comment_2804">shots to the body</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2804/#Comment_2804">March 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2793" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Yes. It sure is about desire. I appreciate you all.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2793/#Comment_2793">Differences in the Eye of the Beholder</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2793/#Comment_2793">March 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2791" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Dear Lynn,
+
+
+
+Thank you. I sure appreciate you writing this.  I love what you write. This comes at a good time. I was focusing on differences with someone I know.  Now concentrating on similarites (which are so many) it feels so much better and real…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2791/#Comment_2791">Differences in the Eye of the Beholder</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2791/#Comment_2791">March 2006</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2153" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Teri,
+
+
+
+
+
+Carl (my husband) surely will appreciate that you are reading what he writes. I look forward to showing him this.
+
+
+
+When I referred to the good book I was speaking of the Tao Te Ching. We use the trasnlation by D.C. Lau. By the way we…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2153/#Comment_2153">The GOOD Book?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2153/#Comment_2153">July 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2109" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Very funny Buddy!
+
+
+
+Cheers,
+
+Leslie </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2109/#Comment_2109">Episode Just aired here in Australia</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2109/#Comment_2109">July 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2087" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+[cite] Carl:[/cite].So, I'm glad you enjoyed the show. I'm very happy we did the show, and to tell the truth, also happy the editors messed with it, for that deepened the educational aspect of this experience... providing more grist for life's mi…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2087/#Comment_2087">Trading Spouses Comment Thread</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2087/#Comment_2087">July 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_2074" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Cutebub wrote...they couldnt FORCE you into saying that you had no televisions, you guys
+
+did it yourselves.
+
+
+
+Yes No one was forced  to say anything. They cut out the real answer that was "Yes" and dubbed in "No". Could you call it forcing behind …</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/2074/#Comment_2074">Trading Spouses Comment Thread</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/2074/#Comment_2074">July 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1811" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Sven, may I sugget you watch a show called "The Reality of Reality TV". I'm sorry you don't know the truth about Carl. He's a very loving man and father. I wish you peace and am sorry you are in such pain about this. </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1811/#Comment_1811">Trading Spouses: 'Vegan Villian' Speaks Out!</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/1811/#Comment_1811">June 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1733" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Just want to say that I really appreciate what you and Carl are saying. How much time I use going around in useless circles in my mind- I am this or that, he or she is this or that, life is this or that...Just to recognize it and being aware of the …</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1733/#Comment_1733">Chapter of the Week: #68 [Archive]</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/1733/#Comment_1733">May 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1692" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Allandone! I've enjoyed your posts. I got a good laugh when I read your question. Who do I know that doesn't act impulsively? FOr me, it depends on the situation and where I am emotionally. I know people that act more than others.   When I want i…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1692/#Comment_1692">Right Effort (Thought,Word and Action(Behavior)</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/1692/#Comment_1692">April 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1690" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I really like and appreciate what you wrote Joe. I so easily jump ahead and it's never what I think it will be but I continue to do it. When do slow down, things always go better and it actually feels better. Sometimes I ask myself, "Hey You, what's…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1690/#Comment_1690">Chapter of the Week: #64 [Archive]</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/1690/#Comment_1690">April 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1644" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Now that is excellent April Foolery Luke! My April Fools joke telling you and Kyle that your karate teacher called to say that  your class would be held by the fountain in the Capitola Shopping Mall was pretty lame. (as you guys let me know) I know,…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1644/#Comment_1644">Legal Warning Issued to CenterTao</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/1644/#Comment_1644">April 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1595" class="Item">
+                <div class="ItemContent">
+            <div class="Message">All right, I'm going to make this even MORE confusing. Why?
+
+
+
+I was about to ask, "Why wasn't anybody in the chat room this morning? It's Friday morning!" Well, then I realized, while it may be Friday in the US, I think it's still Thursday in Austr…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1595/#Comment_1595">Livechat</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/1595/#Comment_1595">March 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1376" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Joe, We really miss seeing you at service now that you've moved. But now we can hear what you would say if you were here- and you are virtually- Neat!  You put things in a very thoughtful, understandable and practical way. It's very helpful for m…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1376/#Comment_1376">Chapter of the Week: #52 [Archive]</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/1376/#Comment_1376">January 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_1330" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hi Colleen!,
+
+
+
+It's great  to hear from you!    Thank you for your  encouragement and kind words. It's very helpful.
+
+
+
+We wish you and your family the best. Cheers, Leslie Abbott  </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/1330/#Comment_1330">Setting the Abbott Family's Reality Record Straight</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/1330/#Comment_1330">January 2005</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_374" class="Item">
+                <div class="ItemContent">
+            <div class="Message">This is Leslie Abbott.Yoga is a very personal journey. I have been doing it for years on and off. I have arthritis and it does help me.  If I compare myself to someone else I know I am completely missing the point. When I do teach yoga we do it toge…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/374/#Comment_374">Yoga and 'reality'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/TaoCow">TaoCow</a></span>
+                <span class="MItem"><a href="/discussion/comment/374/#Comment_374">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+</ul></div></div>
+</div>
+        </div>
+    </div>
+    <div id="Foot">
+        <div class="Row">
+            <a href="http://vanillaforums.org" class="PoweredByVanilla" title="Community Software by Vanilla Forums">Forum Software
+                Powered by Vanilla</a>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

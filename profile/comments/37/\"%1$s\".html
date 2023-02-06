@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ms. Frizzle - CenterTao Forum</title>
+  <link rel="stylesheet" type="text/css" href="/applications/dashboard/design/style.css?v=2.3" media="all" />
+  <link rel="stylesheet" type="text/css" href="/resources/design/vanillicon.css?v=2.3" media="all" />
+  <link rel="canonical" href="/profile/comments/37/&quot;%1$s/&quot;" />
+  <meta name="robots" content="noindex,noarchive" />
+  <meta property="og:site_name" content="CenterTao Forum" />
+  <meta property="og:title" itemprop="name" content="Ms. Frizzle" />
+  <meta property="og:url" content="/profile/comments/37/&quot;%1$s/&quot;" />
+  <script type="text/javascript">gdn=window.gdn||{};gdn.meta={
+    "DefaultAbout": "Write something about yourself...",
+    "AnalyticsTask": "tick",
+    "TagHint": "Start to type...",
+    "emoji": {
+        "assetPath": "\/resources\/emoji",
+        "format": "<img class=\"emoji\" src=\"%1$s\" title=\"%2$s\" alt=\"%2$s\" height=\"20\" \/>",
+        "emoji": {
+            "smile": "smile.png",
+            "smiley": "smiley.png",
+            "wink": "wink.png",
+            "blush": "blush.png",
+            "neutral": "neutral.png",
+            "relaxed": "relaxed.png",
+            "grin": "grin.png",
+            "joy": "joy.png",
+            "sweat_smile": "sweat_smile.png",
+            "lol": "lol.png",
+            "innocent": "innocent.png",
+            "naughty": "naughty.png",
+            "yum": "yum.png",
+            "relieved": "relieved.png",
+            "love": "love.png",
+            "sunglasses": "sunglasses.png",
+            "smirk": "smirk.png",
+            "expressionless": "expressionless.png",
+            "unamused": "unamused.png",
+            "sweat": "sweat.png",
+            "pensive": "pensive.png",
+            "confused": "confused.png",
+            "confounded": "confounded.png",
+            "kissing": "kissing.png",
+            "kissing_heart": "kissing_heart.png",
+            "kissing_smiling_eyes": "kissing_smiling_eyes.png",
+            "kissing_closed_eyes": "kissing_closed_eyes.png",
+            "tongue": "tongue.png",
+            "disappointed": "disappointed.png",
+            "worried": "worried.png",
+            "angry": "angry.png",
+            "rage": "rage.png",
+            "cry": "cry.png",
+            "persevere": "persevere.png",
+            "triumph": "triumph.png",
+            "frowning": "frowning.png",
+            "anguished": "anguished.png",
+            "fearful": "fearful.png",
+            "weary": "weary.png",
+            "sleepy": "sleepy.png",
+            "tired_face": "tired_face.png",
+            "grimace": "grimace.png",
+            "bawling": "bawling.png",
+            "open_mouth": "open_mouth.png",
+            "hushed": "hushed.png",
+            "cold_sweat": "cold_sweat.png",
+            "scream": "scream.png",
+            "astonished": "astonished.png",
+            "flushed": "flushed.png",
+            "sleeping": "sleeping.png",
+            "dizzy": "dizzy.png",
+            "no_mouth": "no_mouth.png",
+            "mask": "mask.png",
+            "star": "star.png",
+            "cookie": "cookie.png",
+            "warning": "warning.png",
+            "mrgreen": "mrgreen.png",
+            "heart": "heart.png",
+            "heartbreak": "heartbreak.png",
+            "kiss": "kiss.png",
+            "+1": "+1.png",
+            "-1": "-1.png",
+            "grey_question": "grey_question.png",
+            "trollface": "trollface.png",
+            "error": "grey_question.png"
+        }
+    },
+    "TransportError": "A fatal error occurred while processing the request.<br \/>The server returned the following response: %s",
+    "TransientKey": null,
+    "WebRoot": "https:\/\/forum.centertao.org\/",
+    "UrlFormat": "\/{Path}",
+    "Path": "profile\/comments\/37\/\\\"%1$s\\\"",
+    "Args": "",
+    "ResolvedPath": "dashboard\/profile\/comments",
+    "ResolvedArgs": {
+        "UserReference": "37",
+        "Username": "\"%1$s",
+        "Page": "\"",
+        "UserID": ""
+    },
+    "SignedIn": 0,
+    "ConfirmHeading": "Confirm",
+    "ConfirmText": "Are you sure you want to do that?",
+    "Okay": "Okay",
+    "Cancel": "Cancel",
+    "Search": "Search"
+};</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.form.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.popup.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.gardenhandleajaxform.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.autosize.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/global.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.jcrop.min.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/dashboard/js/profile.js?v=2.3" type="text/javascript"></script>
+  <script src="/js/library/jquery.gardenmorepager.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/dashboard/js/activity.js?v=2.3" type="text/javascript"></script>
+  <script src="/applications/vanilla/js/discussions.js?v=2.3" type="text/javascript"></script>
+</head>
+<body id="dashboard_profile_comments" class="Dashboard Profile comments  Profile Section-Profile">
+<div id="Frame">
+    <div class="Head" id="Head">
+        <div class="Row">
+            <strong class="SiteTitle"><a href="/">CenterTao Forum</a></strong>
+
+            <div class="SiteSearch"><form method="get" action="/search">
+<div>
+<input type="text" id="Form_Search" name="Search" value="" placeholder="Search" accesskey="/" class="InputBox" /><input type="submit" id="Form_Go" name="" value="Go" class="Button" />
+</div>
+</form></div>
+            <ul class="SiteMenu">
+                <!--  -->
+                <li><a href="/discussions" class="">Discussions</a></li>
+                <li><a href="/activity" class="">Activity</a></li>
+                <!--  -->
+                
+                <!-- 
+               <li><a href="/entry/signin" rel="nofollow" class="SignInPopup">Sign In</a></li>  -->
+            </ul>
+        </div>
+    </div>
+    <div id="Body">
+        <div class="Row">
+            <div class="BreadcrumbsWrapper"><span class="Breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="CrumbLabel CrumbLabel HomeCrumb"><a href="/" itemprop="url"><span itemprop="title">Home</span></a></span> <span itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="Crumb">›</span> <span class="CrumbLabel "><a href="/profile/Ms.%20Frizzle" itemprop="url"><span itemprop="title">Ms. Frizzle</span></a></span> <span itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="Crumb">›</span> <span class="CrumbLabel  Last"><a href="/profile/comments/Ms.%20Frizzle" itemprop="url"><span itemprop="title">Comments</span></a></span> </span></span></span></div>
+            <div class="Column PanelColumn" id="Panel">
+                <div class="MeBox MeBox-SignIn"><div class="SignInLinks"><a href="/entry/signin?Target=profile%2Fcomments%2F37%2F%5C%22%251%24s%5C%22" class=" SignInPopup" rel="nofollow">Sign In</a> <span class="Bullet">&middot;</span> <a href="/entry/register?Target=profile%2Fcomments%2F37%2F%5C%22%251%24s%5C%22" class="ApplyButton" rel="nofollow">Register</a> </div> <div class="SignInIcons"></div></div>
+                    <div class="Photo PhotoWrap PhotoWrapLarge ">
+        <img src="/applications/dashboard/design/images/defaulticon.png" class="ProfilePhotoLarge" />    </div>
+<div class="BoxFilter BoxProfileFilter">
+    <ul class="FilterMenu">
+        <li class="Activity"><a href="/profile/activity/Ms.%20Frizzle"><span class="Sprite SpActivity"></span> Activity</a></li>
+<li class="Discussions"><a href="/profile/discussions/37/Ms.%20Frizzle"><span class="Sprite SpDiscussions"></span> Discussions<span class="Aside"></span></a></li>
+<li class="Active Comments"><a href="/profile/comments/37/Ms.%20Frizzle"><span class="Sprite SpComments"></span> Comments<span class="Aside"><span class="Count">48</span></span></a></li>
+    </ul>
+</div>
+<div class="Box GuestBox">
+    <h4>Howdy, Stranger!</h4>
+
+    <p>It looks like you're new here. If you want to get involved, click one of these buttons!</p>
+
+    <p></p>
+
+    <div class="P"><a href="/entry/signin?Target=profile%2Fcomments%2F37%2F%5C%22%251%24s%5C%22" class="Button Primary SignInPopup" rel="nofollow">Sign In</a> <a href="/entry/register?Target=profile%2Fcomments%2F37%2F%5C%22%251%24s%5C%22" class="Button ApplyButton" rel="nofollow">Register</a></div>    </div>
+
+            </div>
+            <div class="Column ContentColumn" id="Content"><div class="ProfileOptions">
+     </div>
+<div class="Profile">
+    <div class="User" itemscope itemtype="http://schema.org/Person">
+    <h1 class="H">Ms. Frizzle<span class="Gloss"></span></h1>
+        <div class="About P">
+        <h2 class="H">About</h2>
+        <dl class="About">
+                        <dt class="Name">Username</dt>
+            <dd class="Name" itemprop="name">Ms. Frizzle</dd>
+
+            
+                        <dt class="Joined">Joined</dt>
+            <dd class="Joined"><time title="December  7, 2004 12:40PM" datetime="2004-12-07T12:40:52+00:00">December 2004</time></dd>
+            <dt class="Visits">Visits</dt>
+            <dd class="Visits">0</dd>
+            <dt class="LastActive">Last Active</dt>
+            <dd class="LastActive"><time title="January  1, 2005  5:30PM" datetime="2005-01-01T17:30:30+00:00">January 2005</time></dd>
+            <dt class="Roles">Roles</dt>
+            <dd class="Roles">No Roles</dd>
+                    </dl>
+    </div>
+</div>
+<div class="BoxFilter BoxProfileFilter">
+    <ul class="FilterMenu">
+        <li class="Activity"><a href="/profile/activity/Ms.%20Frizzle"><span class="Sprite SpActivity"></span> Activity</a></li>
+<li class="Discussions"><a href="/profile/discussions/37/Ms.%20Frizzle"><span class="Sprite SpDiscussions"></span> Discussions<span class="Aside"></span></a></li>
+<li class="Active Comments"><a href="/profile/comments/37/Ms.%20Frizzle"><span class="Sprite SpComments"></span> Comments<span class="Aside"><span class="Count">48</span></span></a></li>
+    </ul>
+</div>
+<div class="DataListWrap"><h2 class="H">Comments</h2><ul class="DataList SearchResults">    <li id="Comment_977" class="Item">
+                <div class="ItemContent">
+            <div class="Message">LOL I'm called an Abbott Groupie over there,  
+
+
+
+Groupies sleep with rocks stars don't they? Luek is legal but I'd go to jail for touching Kyle. Plus I'm married and live too far away to be a groupie. Darn! lol</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/977/#Comment_977">Our Trading Spouses Review.</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/977/#Comment_977">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_976" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I didn't think Kyle was rude at all.
+
+Jeez the Abbotts just can't win. If they are quite then they are called mindless, brainwashed robots, but if they show any other emotion they are called rude.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/976/#Comment_976">Kyle was rude during fishing....</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/976/#Comment_976">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_974" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Oops that last post was me, I forgot to log in.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/974/#Comment_974">A guide to Taoist parenting</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/974/#Comment_974">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_971" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I wanted Twila to win too.
+
+I didn't really enjoy this season very much. I think they need to do something new.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/971/#Comment_971">Survivor Thread</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/971/#Comment_971">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_866" class="Item">
+                <div class="ItemContent">
+            <div class="Message">ohmygoodness, lol
+
+I did the same thing at a red light once. Good thing there were no other cars around.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/866/#Comment_866">CAR</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/866/#Comment_866">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_746" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I only watched the first episode of wife swap with that rich couple who never spent any time with the kids.
+
+She's a Stay at home mom and has 3 nanny's.   :shock:
+
+I would have loved to say her attitude was editing but seeing her on Oprah and the re…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/746/#Comment_746">Very similar family got the same treatment on Wife Swap</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/746/#Comment_746">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_741" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Ok I give up, people like you don't change, that really too bad 
+
+I wish there was a way to ignore a user, I guess I'll just have to keep on scrolling passed your posts when I see your name.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/741/#Comment_741">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/741/#Comment_741">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_735" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Why not Barbara? SHE may be meat, but she is full of veggies, and just a little alligator, lol  </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/735/#Comment_735">Trading Spices</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/735/#Comment_735">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_734" class="Item">
+                <div class="ItemContent">
+            <div class="Message">LOL, Buddy you are a hoot!!  </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/734/#Comment_734">Well, now that that's over...</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/734/#Comment_734">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_733" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Just for the record, I didn't find anything wrong with the article on lies, and I don't think it made you look like you or the family is in denial.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/733/#Comment_733">Our Trading Spouses Review.</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/733/#Comment_733">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_731" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Christine, an article for you </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/731/#Comment_731">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/731/#Comment_731">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_729" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+I came to this site for many reasons and one of them was the yoga part.This site has become unfortunately somewhere for the freaks to hang out at.
+
+I wonder to the Abbott family,what do you think of the things you have heard,breast feeding till 5…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/729/#Comment_729">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/729/#Comment_729">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_728" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+The mother who breast fed until her child was 5.My GOD you have issues and need to be evaluated.That is not a joke.You need some counseling or soon your child will.
+
+
+
+Wow, I'm so sorry to hear about how uneducated you are about breastfeeding. As…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/728/#Comment_728">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/728/#Comment_728">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_565" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I can't remember how much money given for the car.
+
+
+
+Hey Luke, if you don't it, you can always get me a cute convertable </div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/565/#Comment_565">CAR</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/565/#Comment_565">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_561" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Yah, they really put the drama into that scene.  :x</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/561/#Comment_561">Carl Letting Go Scene &amp; Luke's Liberation....</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/561/#Comment_561">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_549" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Yep, thats what I meant.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/549/#Comment_549">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/549/#Comment_549">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_544" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+Carl's refusal to consider the idea of separate bedrooms.
+
+What refusal?</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/544/#Comment_544">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/544/#Comment_544">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_535" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Wow, great vocabulary, lol
+
+You tell em guys!</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/535/#Comment_535">TS: The family bedroom and sex</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/535/#Comment_535">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_534" class="Item">
+                <div class="ItemContent">
+            <div class="Message">
+
+
+But I believe the poster who asked about the sexual issues surrounding the family bed was curious. Why would honest curiosity and attempted understanding bug you so much?
+
+Only speaking for myself, but I get iffed, because 1) It really is a stupi…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/534/#Comment_534">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/534/#Comment_534">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_532" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I was on the lookout for voice overs and I noticed a lot of them.
+
+When Leslie was reading how the money should be split up and you hear Carl says 'Thats not going to happen' (or something like that)
+
+If he had really said that at that moment then t…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/532/#Comment_532">To Carl about the money for a bedroom for the boys</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/532/#Comment_532">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_523" class="Item">
+                <div class="ItemContent">
+            <div class="Message">LOL, I was called an 'Abbott groupie' for sticking up for them on the FOX board.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/523/#Comment_523">Sometimes You Just Gotta Laugh...</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/523/#Comment_523">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_403" class="Item">
+                <div class="ItemContent">
+            <div class="Message">@ 'SC'
+
+
+
+So what?
+
+What does where a person SLEEP have anything to do with independence?
+
+
+
+And BTW, babies ARE born along us. If we were meant to shoo our kids into another room or a crib to sleep, then they would not grow inside us for nine month…</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/403/#Comment_403">The shared bedroom and 'brainwashing'</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/403/#Comment_403">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_381" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Hmm I bet if you whisper "don't wear shoes" over and over in her ear while she is sleeping, it'll work    LOL
+
+
+
+You sound proud when you speak about the boys' birth. I noticed it when you told Vickie on the show that they were born in that room. I …</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/381/#Comment_381">How Papa brainwashed the kids to always go barefoot.</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/381/#Comment_381">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_379" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I can't believe that they would assume that you do (or that my husband and I) have sex in front of our kids!
+
+
+
+I hope your message puts those comments from some people dead in their tracks.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/379/#Comment_379">TS: The family bedroom and sex</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/379/#Comment_379">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_367" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Buddy, that is a great idea!  Carl would make it so far, and I bet even win on Survivor!
+
+
+
+I too have many more questions about the next episode, but I guess we have to wait till Monday.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/367/#Comment_367">TS: Trading Spouses and "California Hippies"</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/367/#Comment_367">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_366" class="Item">
+                <div class="ItemContent">
+            <div class="Message">How sweet!
+
+We always had dogs growing up.
+
+My oldest son has been asking for a pet rabbit for a few years.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/366/#Comment_366">I got to pet a dog today</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/366/#Comment_366">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_365" class="Item">
+                <div class="ItemContent">
+            <div class="Message">My goal is to just be a mom, I would like to have many more children, and when they are grown I would like to become a midwife.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/365/#Comment_365">What do you want to be when you grow up?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/365/#Comment_365">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_323" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Ohh I would love to go to Vegas!
+
+Our parents brought us to Reno when we were kids, and I remember seeing a movie being filmed on the streets below our hotel.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/323/#Comment_323">flying anyone?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/323/#Comment_323">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_292" class="Item">
+                <div class="ItemContent">
+            <div class="Message">Speaking of flying.
+
+We are going to Alberta in 9 days!! It will be my kids' first airplane ride.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/292/#Comment_292">flying anyone?</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/292/#Comment_292">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+    <li id="Comment_291" class="Item">
+                <div class="ItemContent">
+            <div class="Message">I'm so glad you posted that. I wanted to say something about it, but I'm not good at getting my toughts down on paper.</div>
+            <div class="Meta">
+                <span class="MItem">in                     <b><a href="/discussion/comment/291/#Comment_291">Modern Moralists</a></b></span>
+                <span class="MItem">Comment by <a href="/profile/Ms.%20Frizzle">Ms. Frizzle</a></span>
+                <span class="MItem"><a href="/discussion/comment/291/#Comment_291">December 2004</a></span>
+            </div>
+        </div>
+    </li>
+<div  id="PagerMore" class="MorePager Foot"><a href="/profile/comments/Ms.%20Frizzle?page=p2" rel="nofollow">More Comments</a></div></ul></div></div>
+</div>
+        </div>
+    </div>
+    <div id="Foot">
+        <div class="Row">
+            <a href="http://vanillaforums.org" class="PoweredByVanilla" title="Community Software by Vanilla Forums">Forum Software
+                Powered by Vanilla</a>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
